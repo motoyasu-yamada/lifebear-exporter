@@ -1,0 +1,42 @@
+{
+  "name": "search-morow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint --cache --fix src && prettier --write src",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintIgnore": [
+    "/.eslintrc.js"
+  ],
+  "dependencies": {
+    "@types/moment-duration-format": "^2.2.3",
+    "@types/node": "^17.0.25",
+    "axios": "^0.26.1",
+    "csv-parse": "^5.0.4",
+    "csv-stringify": "^6.0.5",
+    "escape-filename": "^1.1.2",
+    "eslint-config-prettier": "^8.5.0",
+    "iconv-lite": "^0.6.3",
+    "moment": "^2.29.3",
+    "moment-duration-format": "^2.3.2",
+    "puppeteer": "^13.6.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "ulid": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.5",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.6.2"
+  }
+}
